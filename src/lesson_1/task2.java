@@ -22,10 +22,10 @@ public class task2 {
         ArrayList<String[]> arr1 = split_list(lst1);
         ArrayList<String[]> arr2 = split_list(lst2);
 
-        System.out.println(arr1.size() + "size");
+        System.out.println(arr1.size() + " size");
         al_print(arr1);
         System.out.println();
-        System.out.println(arr2.size() + "size");
+        System.out.println(arr2.size() + " size");
         al_print(arr2);
     }
 
