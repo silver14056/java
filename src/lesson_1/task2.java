@@ -45,9 +45,6 @@ public class task2 {
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
-
-
-
     }
 
 
