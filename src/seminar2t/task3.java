@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 public class task3 {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
-        Logger logger = Logger.getLogger("task2");
+        Logger logger = Logger.getLogger("task3");
         String jewels, stones;
 
         logger.info("Введите драгоценную строку: ");
