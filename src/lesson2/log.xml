@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2024-08-09T19:07:12.008737200Z</date>
-  <millis>1723230432008</millis>
-  <nanos>737200</nanos>
+  <date>2024-08-17T17:40:54.387081500Z</date>
+  <millis>1723916454387</millis>
+  <nanos>81500</nanos>
   <sequence>0</sequence>
   <logger>lesson2.task2</logger>
   <level>WARNING</level>
@@ -14,9 +14,9 @@
   <message>Тестовое логирование 1</message>
 </record>
 <record>
-  <date>2024-08-09T19:07:12.102458800Z</date>
-  <millis>1723230432102</millis>
-  <nanos>458800</nanos>
+  <date>2024-08-17T17:40:54.527662200Z</date>
+  <millis>1723916454527</millis>
+  <nanos>662200</nanos>
   <sequence>1</sequence>
   <logger>lesson2.task2</logger>
   <level>INFO</level>
