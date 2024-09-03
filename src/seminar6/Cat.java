@@ -12,7 +12,7 @@ public class Cat {
     private LocalDate birthDate;
     private Set<Vaccination> vaccinations;
 
-    public Cat() { // конструктор без параметров, если нет другого конструктора, по умолчанию java создаст иманно такой
+    public Cat() { // конструктор без параметров, если нет другого конструктора, по умолчанию java создаст именно такой
     }
 
     public Cat(String name) {

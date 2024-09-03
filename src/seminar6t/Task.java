@@ -28,7 +28,7 @@ public class Task {
             set.add(num);
         }
         System.out.println(set);
-        float result = set.size() * (100 / arr.length);
+        float result = set.size() * 100 / arr.length;
         return result;
     }
 }
