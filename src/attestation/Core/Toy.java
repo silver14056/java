@@ -1,9 +1,16 @@
 package attestation.Core;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Toy {
     private String name;
     private int id;
     private int weight;
+
+    public Toy() {
+        this.name = "";
+    }
 
     public Toy(String name, int id, int weight) {
         this.name = name;
@@ -48,5 +55,18 @@ public class Toy {
         result = 31 * result + id*13;
         result = 31 * result + weight*13;
         return result;
+    }
+
+    public String exportToFile() {
+        try {
+            FileWriter writer = new FileWriter("src/attestation/Core/Toys.txt", true);
+            String line = this.id + ";" + this.name + ";" + this.weight;
+            writer.write(line);
+            writer.write(System.lineSeparator());
+            writer.close();
+            return "Игрушка успешно экспортирована в файл.";
+        } catch (IOException e) {
+            return "Произошла ошибка при экспортировании игрушки в файл.";
+        }
     }
 }
